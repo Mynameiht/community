@@ -4,6 +4,8 @@ import com.nowcoder.community.dao.UserMapper;
 import com.nowcoder.community.pojo.User;
 import org.springframework.stereotype.Service;
 
+import java.util.Map;
+
 
 public interface UserService {
 
@@ -16,4 +18,8 @@ public interface UserService {
     int insertUser(User user);
 
     int updateStatus(int id ,int status);
+
+    Map<String,Object> register(User user);
+
+    int activation(String userId,String code);
 }
