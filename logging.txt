@@ -1,0 +1,11 @@
+2023-02-20 19:04:21.636  INFO 23540 --- [main] com.newcoder.community.LoggerTest        : Starting LoggerTest on 黄涛 with PID 23540 (started by 73865 in D:\community)
+2023-02-20 19:04:21.637 DEBUG 23540 --- [main] com.newcoder.community.LoggerTest        : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-02-20 19:04:21.639  INFO 23540 --- [main] com.newcoder.community.LoggerTest        : No active profile set, falling back to default profiles: default
+2023-02-20 19:04:23.444  INFO 23540 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 19:04:23.763  INFO 23540 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-20 19:04:24.081  INFO 23540 --- [main] com.newcoder.community.LoggerTest        : Started LoggerTest in 2.767 seconds (JVM running for 3.813)
+2023-02-20 19:04:24.279 DEBUG 23540 --- [main] com.newcoder.community.LoggerTest        : debug log
+2023-02-20 19:04:24.279  INFO 23540 --- [main] com.newcoder.community.LoggerTest        : info log
+2023-02-20 19:04:24.279  WARN 23540 --- [main] com.newcoder.community.LoggerTest        : warn log
+2023-02-20 19:04:24.279 ERROR 23540 --- [main] com.newcoder.community.LoggerTest        : error log
+2023-02-20 19:04:24.296  INFO 23540 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
