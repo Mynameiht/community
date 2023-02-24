@@ -16,6 +16,14 @@ spring:
       maximum-pool-size: 15
       minimum-idle: 5
       idle-timeout: 30000
+#mail发送邮件配置
+  mail:
+    host: smtp.qq.com
+    port: 465
+    username: 738659456@qq.com
+    password: zqqwupqvwemzbegg
+    protocol: smtps
+    default-encoding: utf-8
 #mybatis
 mybatis:
   mapper-locations: classpath:mapper/*.xml
@@ -30,3 +38,8 @@ mybatis:
 #    com.newcoder.community: debug
 #  file: D:\\community\\log\\community.log
 
+#community
+community.path: http://localhost:8888
+community:
+  path:
+    upload: D:/communityFile
